@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Download Media Extension",
+  "version": "1.0",
+  "description": "Extension to download images and videos",
+  "permissions": [
+    "downloads",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "ind.html"
+  }
+}
